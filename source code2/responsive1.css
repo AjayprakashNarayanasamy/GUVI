@@ -1,0 +1,57 @@
+body {
+    background-color: #303E47;
+    
+
+}
+h1
+{
+    font-weight: bolder;
+}
+.fontcolor
+{
+   color: #FF585A;
+   font-size: 3em;
+   
+   /* margin-right: 600px; */
+}
+.fontcolor1
+{
+    font-size: 1em;
+    color:white;
+    margin-top: 2em;
+}
+#icons
+{
+    width: 3em;
+    height: 3em;
+}
+.inside
+{
+    background-color: #303E47;  
+    margin: solid 2px rgb(189, 25, 25);
+}
+.div-img1
+{
+    width: 4em;
+    height: 4em;
+    border: 5px solid white;
+    background-color: #05AFE7;
+}
+.div-class1
+{
+  background-color: #FE9F1C;
+  padding: 2em 2em 2em 2em;
+  
+}
+.div-class11
+{
+    background-color:#00B1E2;
+    padding: 2em 2em 2em 2em;
+    
+}
+.div-class2
+{
+    background-color: #FF595A;
+    padding: 2em 2em 2em 2em;
+}
+
