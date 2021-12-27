@@ -1,0 +1,198 @@
+img{
+    border-radius: 50%;
+    width:30px;
+    height:30px
+}
+#guvi{
+    width:900px;
+    height:300px;
+    border-radius:0px;
+    display:flex;
+    justify-content: center;
+    margin-left: 200px;
+
+}
+#guvii
+{
+    border-radius: 50%;
+    width:120px;
+    height:80px;
+    box-shadow: 10px 10px 5px 12px grey;
+    border: solid 3px black ;
+}
+.section1{
+    display:grid;
+    grid-auto-flow: column;
+    background-color: black;
+    
+}
+.section2{
+   
+    background-color: grey;
+    
+}
+#nav1
+{
+    display:flex;
+    justify-content: flex-start;
+    gap:1cm;
+}
+#nav2
+{
+    display:flex;
+    justify-content: center;
+    gap: 1cm;
+}
+#nav3
+{
+    display:flex;
+   justify-content: flex-end;
+   gap: 1cm;
+}
+.section3{
+    display:flex;
+    justify-content: center;
+    gap: 3cm;
+}
+section.section31
+{
+   margin-top: 11px;
+}
+section.section32
+{
+    margin-top: 20px;
+}
+section.section33
+{
+    margin-top: 20px;
+}
+.section4{
+    display:flex;
+
+    justify-content: center;
+    gap :4em;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    overflow-x:hidden;
+    background-color: black;
+    height:100vh;
+}
+div{
+    background-color:do;
+    margin: 2em 2em 2em 0 ;
+    width:180px;
+    height: 110px;
+    border-radius: 17px;
+    
+}
+#style1
+{
+    background-color:#353535;  
+    border: none;
+    margin-inline-end: rem;
+    width: 75%;
+    height: 105%;
+    
+    border: 2px blue(0,0,0,2);
+    
+    
+}
+#style2
+{
+   
+    color:honeydew;
+    display:grid;
+    grid-auto-flow: column;
+    padding:.7em;
+}
+#content
+{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 50px;
+    margin-left: 50px; 
+    
+}
+#style3
+{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font: weight 900px;
+    
+    
+
+}
+#style4
+{
+    margin-top: 10px;
+    border-radius:50px;
+   
+   
+}
+#style5
+{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 1.5cm;
+    margin-left: 1cm;
+    /* margin: 10em;  */
+    
+}
+#style6
+{
+    
+    font-weight:800 ;
+    color:#C9D2C5;
+    font-size: 14px;
+    
+    background-color:#353535;
+    border: none;
+    width:40%;
+    padding:60px;
+   margin-left:400px;
+   
+    letter-spacing: 4px;
+}
+#style7
+{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: .5cm;
+   
+    
+    
+   
+}
+#style7 > div
+{
+    
+height:160px;
+width:220px
+}
+
+#style8
+{
+    background-color:#353535;
+    border:none;
+    
+    height: 180px;
+    width:28%;
+    padding:60px;
+    margin-left:400px;
+    
+    margin-top: -20%;
+    
+}
+
+
+

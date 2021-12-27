@@ -1,0 +1,52 @@
+.style1
+{
+    word-spacing:150px
+   
+}
+.style2
+{
+    
+    padding: 15px; 
+    border-radius: 0px;
+    border: 1px solid grey;
+   
+}
+.style3
+{
+    text-align:left;
+}
+.style4
+{
+    max-width: 800px;
+  margin: auto;
+  
+  border: 1px solid grey;
+  padding: 16px;
+  
+}
+input[type='text']::placeholder
+{   
+    text-align: right;     
+}
+
+
+.checked {
+    color: orange;
+size: 88px;}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width:100%
+}
+td,th{
+    
+    text-align:center;
+    padding:8px;
+}
+
+tr:nth-child(even)
+{
+    background-color:rgba(238, 238, 238, 0.692);
+}
+
+

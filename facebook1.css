@@ -1,0 +1,108 @@
+#idstyle1
+{
+    border-radius: 50%;
+    width:36px;
+    height:43px;
+
+}
+#divstyle1
+{
+    display: flex;
+justify-content: flex-start;
+margin-left: .5em;
+gap:.1em;
+}
+
+#divstyle2
+{
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+}
+#divstyle3
+{
+    display:flex;
+    justify-content: end;
+    gap: 1em;
+}
+#span1
+{
+    color: whitesmoke;
+    margin-top: 1.5%;
+    gap: 0px;
+}
+.classstyle1
+{
+    
+        display:grid;
+        grid-auto-flow: column;
+        background-color:#18191A;
+        
+}
+#idstyle2
+{
+    border-radius: 50%;
+    width:120px;
+    height:120px;
+    margin-left: 9cm;
+}
+.imgstyle2
+{
+    
+        width:800px;
+        height:300px;
+        border-radius:0px;
+        display:flex;
+        justify-content: center;
+        margin-left: 9cm;
+       
+        
+    
+}
+.classstyle2
+{
+    background-image: linear-gradient(to bottom right, rgb(88, 82, 82),#18191A);
+}
+.divclassstyle1
+{
+    display:grid;
+    grid-auto-flow: column;
+   
+}
+.divclassstyle2
+{
+    display:grid;
+    grid-auto-flow: column;
+    padding: .5cm;
+   
+}
+#section3
+{
+    margin-top: 1cm;
+    margin-left: 3cm;
+    width: 12cm;
+    height: 4cm;
+    background-color:#242526;
+}
+.Section3overall
+{
+    display:grid;
+    grid-auto-flow: column;
+}
+
+body{
+   
+    
+    
+    width: 100%;
+    
+    background-color:black;
+   
+}
+div.rotate
+{
+    display:grid;
+    grid-auto-flow: column;
+}
+
+

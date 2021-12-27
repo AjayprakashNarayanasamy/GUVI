@@ -1,0 +1,174 @@
+<html>
+
+<head>
+    <title>FORM</title>
+</head>
+<style>
+    body { margin:0 auto; max-width: 700px; border: 1px solid black;
+  margin: 400px;width:80% }
+  .a{
+      color: darkgoldenrod;
+  }
+</style>
+
+<body>
+      
+
+    <div class = "entire">
+
+    <div><b>Name</b> <sup style="color: crimson;">*</sup></div>
+    <form>
+        <input type="text" id="fname" name="fname" required>&nbsp;
+        <input type="text" id="lname" name="lname" required><br>
+        <label for="fname">First name:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</label> <label for="lname"> Last name:</label>
+
+
+    <p>
+        
+        <div><b>Email</b> <sup style="color: crimson;">*</sup></div>
+        <label for="email">Enter your email:</label>
+        <input type="email" size = "30" id="email" name="email"><br>
+    </p>
+    
+    <div><b>Your Experience</b> <sup style="color: crimson;">*</sup></div>
+    <div class="rating">
+       <div class = "a"> <span style = "font-size: larger;">☆</span><span style = "font-size: larger;">☆</span><span style = "font-size: larger;">☆</span><span style = "font-size: larger;">☆</span><span style = "font-size: larger;">☆</span><br>
+        </div>
+        <p>Overall,how would you rate your experience with us </p>
+
+        <div><b>How satisfied are you with</b> <sup style="color: crimson;">*</sup></div>
+        <style>
+
+        .style{
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+          }
+          
+          td, th {
+            
+            text-align: centre;
+            padding-left: 1px;
+          }
+          
+          .style tr:nth-child(even) {
+            background-color: #dddddd;
+          }
+          .style1{
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+          }
+          
+          td, th {
+            
+            text-align: center;
+            padding: 8px;
+          }
+          
+          .style1 tr:nth-child(odd) {
+            background-color: #dddddd;
+          }
+          .left
+          {
+              padding-left: 10px
+          }
+          
+          
+          </style>
+          
+          
+          
+          
+          <table class = "style">
+            <tr>
+              <td></td>
+              <td>VeryUnsatisfied</td>
+              <td>Unsatisfied</td>
+              <td>Neutral</td>
+              <td>Satisfied</td>
+              <td>Very Satisfied</td>
+            
+
+            </tr>
+            <tr style = "text-align:center">
+              <td>Purchase</td>
+              <td><input type="radio" id="" name="purchase" value=""></td>
+              <td><input type="radio" id="" name="purchase" value=""></td>
+              <td><input type="radio" id="" name="purchase" value=""></td>
+              <td><input type="radio" id="" name="purchase" value=""></td>
+              <td><input type="radio" id="" name="purchase" value=""></td>
+            </tr>
+            <tr>
+              <td>Service </td>
+              <td class = "left"><input type="radio" id="" name="purchase" value=""></td>
+              <td><input type="radio" id="" name="purchase" value=""></td>
+              <td><input type="radio" id="" name="purchase" value=""></td>
+              <td><input type="radio" id="" name="purchase" value=""></td>
+              <td><input type="radio" id="" name="purchase" value=""></td>
+            </tr>
+            <tr>
+              <td>company overall</td>
+              <td><input type="radio" id="" name="purchase" value=""></td>
+              <td><input type="radio" id="" name="purchase" value=""></td>
+              <td><input type="radio" id="" name="purchase" value=""></td>
+              <td><input type="radio" id="" name="purchase" value=""></td>
+              <td><input type="radio" id="" name="purchase" value=""></td>
+            </tr>
+             </table><br>
+
+             <div><b>How satisfied are you with</b> <sup style="color: crimson;">*</sup></div><br>
+
+             
+             
+             
+             <table class = "style">
+                
+                 
+                <tr>
+                    <td></td>
+                    <td>VeryUnsatisfied</td>
+                    <td>Unsatisfied</td>
+                    <td>Neutral</td>
+                    <td>Satisfied</td>
+                    <td>Very Satisfied</td>
+                  </tr>
+                  <tr>
+                    <td class ="limit">Buy from us again</td>
+                    <td><input type="radio" id="" name="purchase" value=""></td>
+                    <td><input type="radio" id="" name="purchase" value=""></td>
+                    <td><input type="radio" id="" name="purchase" value=""></td>
+                    <td><input type="radio" id="" name="purchase" value=""></td>
+                    <td><input type="radio" id="" name="purchase" value=""></td>
+                  </tr>
+                  <tr>
+                    <td class = "limit">Recommend our<br> products to others</td>
+                    <td><input type="radio" id="" name="purchase" value=""></td>
+                    <td><input type="radio" id="" name="purchase" value=""></td>
+                    <td><input type="radio" id="" name="purchase" value=""></td>
+                    <td><input type="radio" id="" name="purchase" value=""></td>
+                    <td><input type="radio" id="" name="purchase" value=""></td>
+                  </tr>
+                  <tr >
+                    <td class = "limit">Recommend our<br>company to others</td>
+                    <td><input type="radio" id="" name="purchase" value=""></td>
+                    <td><input type="radio" id="" name="purchase" value=""></td>
+                    <td><input type="radio" id="" name="purchase" value=""></td>
+                    <td><input type="radio" id="" name="purchase" value=""></td>
+                    <td><input type="radio" id="" name="purchase" value=""></td>
+
+
+                    </tr>
+                 </table><br>
+                 <div><b>Additional comments or suggestions</b> </div><br>
+                 <label for="text"></label>
+                 <textarea id="" name="text" rows="5" cols="50"></textarea><br>
+                 <br>
+                 <button type="submit">Button</button>
+ 
+
+    </form>
+</div>
+</body>
+
+</html>

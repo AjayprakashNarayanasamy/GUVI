@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    overflow-x:hidden;
+    background-color:#C9D2C5;
+    height:100vh;
+}
+#ip1
+{
+    width: 5cm;
+}
+div{
+    background-color:red;
+    margin: 2em 2em 2em 0 ;
+    width:180px;
+    height: 110px;
+    border-radius: 17px;
+    
+}
+#style1
+{
+     
+    border: none;
+    margin-inline-end: rem;
+    width: 7%;
+    height: 105%;
+    border-radius: 20px;
+    margin-right:30000px;
+    border: 2px blue(0,0,0,2);
+    
+}
+#style2
+{
+    background-color: #2F3D46;
+    color:honeydew;
+    display:grid;
+    grid-auto-flow: column;
+    padding:.7em;
+    gap:4em;
+}
+#content
+{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 50px;
+    margin-left: 50px; 
+}
+#style3
+{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font: weight 900px;
+    
+
+}
+#style4
+{
+    margin-top: 10px;
+    border-radius:50px;
+    background-color:#C9D2C5;
+}
+#style5
+{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 1.5cm;
+    margin-left: 1cm;
+    /* margin: 10em;  */
+}
+#style6
+{
+    
+    font-weight:800 ;
+    color:#C9D2C5;
+    font-size: 14px;
+    
+    background-color:#353535;
+    border: none;
+    width:70%;
+    padding:16px;
+   margin-left:50px;
+   border-radius: 10px;
+    letter-spacing: 4px;
+}
+#style7
+{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: .5cm;
+    
+    
+   
+}
+#style7 > div
+{
+height:160px;
+width:220px
+}
+
+#style8
+{
+    background-color:#353535;
+    border:none;
+    width: 85%;
+    height: 180px;
+    border-radius: 15px;
+    
+    margin-top: 5.7%;
+    
+}
+#end
+{
+width: 3cm;
+}
+
+
+
